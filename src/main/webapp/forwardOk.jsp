@@ -7,7 +7,7 @@
 <title>forwardOk</title>
 </head>
 <body>
-	저는 forward.jsp 로 부터 포워딩된 forwardOk.jsp 입니다.
+	저는 forward.jsp 로 부터 포워딩된 forwardOk.jsp 입니다.<br>
 	<%
 	String id = request.getParameter("memberId");
 	String pw = request.getParameter("memberPw");
